@@ -1,8 +1,15 @@
+@media (min-width: 200px) {
+
 body {
     margin: 0;
-    background: url(images/misc/her.png) no-repeat center center fixed;
+    background: url(images/misc/her.png) no-repeat center center;
     font-family: monospace;
     letter-spacing: 2px;
+    background-color: #313131;
+}
+
+img {
+    max-width:100%;
 }
 
 a {
@@ -10,7 +17,6 @@ a {
 }
 
 #box {
-
     height: 730px;
     width: 800px;
     margin: auto;
@@ -27,7 +33,6 @@ a {
     width: 800px;
     margin: auto;
     padding: 1px;
-    background-image: url()
 }
 
 .links_color {
@@ -51,6 +56,7 @@ p {
     height: min-content;
     padding: 1rem;
     display: flex;
+    flex-basis: 33%;
     align-items: center;
     justify-content: center;
 }
@@ -63,12 +69,15 @@ p {
 }
 
 h1 { color: #ffffff;
+    text-align: center;
 }
 
 h2 { color: #ffffff;
+    text-align: center;
 }
 
 h3 {color:#ffffff;
+    text-align: center;
 }
 
 h4 {
@@ -81,6 +90,7 @@ h5 {
 
 h6 {
     color: #ffffff;
+    text-align: center;
 }
 
 ul {
@@ -88,4 +98,12 @@ ul {
     font-size: large;
     font-size: 20px;
     font-family: Helvetica;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    flex-basis: 100%;
+}
+
 }
