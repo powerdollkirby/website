@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background: url(images/misc/her.png) no-repeat center center fixed;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+#box {
+
+    height: 730px;
+    width: 800px;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.589);
+    text-align: center;
+    align-items: middle;
+    align-content: center;
+}
+
+#container {
+    border: #000000;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    padding: 1px;
+    background-image: url()
+}
+
+.links_color {
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-shadow: #000000;
+    padding-top: 10px;
+}
+
+#bottom {
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+#container-bottom {
+    height: min-content;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon {
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+h1 { color: #ffffff;
+}
+
+h2 { color: #ffffff;
+}
+
+h3 {color:#ffffff;
+}
+
+h4 {
+   color: #ffffff; 
+}
+
+h5 {
+    color: #ffffff;
+}
+
+h6 {
+    color: #ffffff;
+}
+
+ul {
+    color: #ffffff;
+    font-size: large;
+    font-size: 20px;
+    font-family: Helvetica;
+}
