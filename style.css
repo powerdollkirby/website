@@ -78,3 +78,7 @@ a:hover {
     opacity: 0.0;
     z-index: -1;
 }
+
+#ann {
+    text-align: center;
+}
