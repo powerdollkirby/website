@@ -1,4 +1,7 @@
-@media (min-width: 200px) {
+@media screen and (min-width: 600px) {
+    .flex {
+      display:block;
+    }
 
 body {
     margin: 0;
@@ -7,11 +10,6 @@ body {
     letter-spacing: 2px;
     background-color: #313131;
 }
-
-img {
-    max-width:100%;
-}
-
 a {
     color: rgb(255, 255, 255);
 }
@@ -61,23 +59,13 @@ p {
     justify-content: center;
 }
 
-.header-icon {
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    width: 100px;
-}
-
 h1 { color: #ffffff;
-    text-align: center;
 }
 
 h2 { color: #ffffff;
-    text-align: center;
 }
 
 h3 {color:#ffffff;
-    text-align: center;
 }
 
 h4 {
@@ -90,7 +78,6 @@ h5 {
 
 h6 {
     color: #ffffff;
-    text-align: center;
 }
 
 ul {
@@ -104,6 +91,15 @@ ul {
 
 div {
     flex-basis: 100%;
+    }
 }
+
+#mainframe {
+    justify-content: center;
+    align-items: center;
+    top:-318px;
+    left:255px;
+}
+@media screen and (max-aspect-ratio:16/9) {
 
 }

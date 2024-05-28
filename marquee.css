@@ -1,0 +1,17 @@
+slot {
+    display: block;
+    will-change: translate;
+}
+  
+  /* Disable the animation on contenteditable */
+:host(:read-write) > slot {
+    translate: none !important;
+  }
+  
+/* When printing or when the user doesn't want movement, we disable scrolling */
+  @media print, (prefers-reduced-motion) {
+    slot {
+      translate: none !important;
+    }
+  }
+  
